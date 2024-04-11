@@ -19,7 +19,7 @@ public class CalculatorController {
     @GetMapping("/health_check")
     public String health() {
         return "fine";
-    }
+    } 
 
     @GetMapping("/plus")
     public CalculatorDTO getPlus(CalculatorDTO calculatorDTO) {
